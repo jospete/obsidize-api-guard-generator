@@ -36,7 +36,7 @@
     "copy:assets": "run-p copy:package copy:readme",
     "git:publish": "node node_modules/@obsidize/devkit/cli.cjs.js release publish",
     "dist:publish": "npm publish dist",
-    "release:test": "run-s rebuild coverage docs",
+    "release:test": "run-s rebuild",
     "release:publish": "run-s git:publish dist:publish",
     "release:prepare:patch": "npm version patch",
     "bump": "run-s release:prepare:patch release:test release:publish",

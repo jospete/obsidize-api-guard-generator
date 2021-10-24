@@ -1,4 +1,4 @@
-# @obsidize/cordova-plugin-sequencer
+# @obsidize/api-guard-generator
 
 An experiment to test the feasibility of generating generic "Guard" classes for
 APIs which require serial (non-parallel) method execution.
@@ -8,7 +8,5 @@ APIs which require serial (non-parallel) method execution.
 - npm:
 
 ```bash
-npm install --save @obsidize/cordova-plugin-sequencer
+npm install --save @obsidize/api-guard-generator
 ```
-
-## Usage
