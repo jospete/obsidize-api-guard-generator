@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "stripInternal": true,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "module": "ES2015",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "rootDir": "src",
+    "target": "ES6",
+    "lib": [
+      "ES6",
+      "ES2017",
+      "DOM"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "scripts/sample.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "tests",
+    "scripts"
+  ]
+}
